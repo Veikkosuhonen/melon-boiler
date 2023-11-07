@@ -1,0 +1,27 @@
+{
+  "name": "melonjs-typescript-boilerplate",
+  "version": "1.5.0",
+  "main": "src/index.ts",
+  "author": "Olivier Biot",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "sass": "^1.69.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-favicons-inject": "^2.2.0",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-static-copy": "^0.17.0"
+  },
+  "browserslist": "defaults",
+  "scripts": {
+    "dev": "tsc && vite dev",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@melonjs/debug-plugin": "^14.8.1",
+    "melonjs": "^15.13.0"
+  },
+  "type": "module"
+}
