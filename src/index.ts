@@ -1,4 +1,4 @@
-import { audio, loader, state, device, video, plugin, pool } from "melonjs";
+import { audio, loader, state, device, video, plugin, pool, level, game } from "melonjs";
 import TitleScreen from "./scripts/stage/title.js";
 import PlayScreen from "./scripts/stage/play.js";
 import PlayerEntity from "./scripts/renderables/player.js";

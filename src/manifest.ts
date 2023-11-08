@@ -1,5 +1,7 @@
+import { loader } from "melonjs";
+
 // a melonJS data manifest
-const DataManifest = [
+const DataManifest: loader.loader.Asset[] = [
 
     /* Bitmap Text */
     {
@@ -11,6 +13,17 @@ const DataManifest = [
         name: "PressStart2P",
         type: "binary",
         src: "/data/fnt/PressStart2P.fnt"
+    },
+
+    {
+        name: "Tilemap",
+        type: "tmx",
+        src: "/data/map/Tilemap.tmx"
+    },
+    {
+        name: "Tileset",
+        type: "image",
+        src: "/data/map/Tileset.png"
     }
 ];
 
