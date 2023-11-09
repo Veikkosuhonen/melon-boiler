@@ -8,7 +8,7 @@ import { initializeInputMap } from "./inputMap.js";
 device.onReady(() => {
 
     // initialize the display canvas once the device/browser is ready
-    if (!video.init(1218, 562, {parent : "screen", scale : "auto"})) {
+    if (!video.init(1218, 562, {parent : "screen", scale : "auto", transparent: true })) {
         alert("Your browser does not support HTML5 canvas.");
         return;
     }

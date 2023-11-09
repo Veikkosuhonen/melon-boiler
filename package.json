@@ -6,6 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.8.4",
+    "@types/react-dom": "^18.2.15",
     "sass": "^1.69.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.11",
