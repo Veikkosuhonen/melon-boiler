@@ -7,19 +7,19 @@ const DataManifest: loader.loader.Asset[] = [
     {
         name: "playerSpriteSheet",
         type: "image",
-        src: "/data/sprite/playerSpriteSheet.png"
+        src: "./data/sprite/playerSpriteSheet.png"
     },
 
     /* Map */
     {
         name: "Tilemap",
         type: "tmx",
-        src: "/data/map/Tilemap.tmx"
+        src: "./data/map/Tilemap.tmx"
     },
     {
         name: "Tileset",
         type: "image",
-        src: "/data/map/Tileset.png"
+        src: "./data/map/Tileset.png"
     }
 ];
 
