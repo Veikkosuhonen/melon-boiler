@@ -1,4 +1,4 @@
-import { Stage, game, ColorLayer, BitmapText, level  } from "melonjs";
+import { Stage, game, level  } from "melonjs";
 
 class PlayScreen extends Stage {
     
@@ -12,6 +12,7 @@ class PlayScreen extends Stage {
             "onLoaded"  : ()=> {
                 // set the background to black
                 game.world.backgroundColor.setColor(0, 0, 0);
+                game.world.physic = "none";
                 // force redraw
                 game.repaint();
                 console.log("Tilemap loaded")

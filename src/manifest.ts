@@ -3,18 +3,14 @@ import { loader } from "melonjs";
 // a melonJS data manifest
 const DataManifest: loader.loader.Asset[] = [
 
-    /* Bitmap Text */
+    /* Player sprite sheet */
     {
-        name: "PressStart2P",
+        name: "playerSpriteSheet",
         type: "image",
-        src:  "/data/fnt/PressStart2P.png"
-    },
-    {
-        name: "PressStart2P",
-        type: "binary",
-        src: "/data/fnt/PressStart2P.fnt"
+        src: "/data/sprite/playerSpriteSheet.png"
     },
 
+    /* Map */
     {
         name: "Tilemap",
         type: "tmx",
