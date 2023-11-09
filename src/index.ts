@@ -1,9 +1,10 @@
 import { audio, loader, state, device, video, plugin, pool, level, game } from "melonjs";
-import TitleScreen from "./scripts/stage/title.js";
-import PlayScreen from "./scripts/stage/play.js";
-import PlayerEntity from "./scripts/renderables/player.js";
+import TitleScreen from "./game/stage/title.js";
+import PlayScreen from "./game/stage/play.js";
+import PlayerEntity from "./game/renderables/player.js";
 import DataManifest from "./manifest.js";
 import "./index.scss"
+import { initializeInputMap } from "./game/inputMap.js";
 
 device.onReady(() => {
 
@@ -29,6 +30,8 @@ device.onReady(() => {
 
     // set and load all resources.
     loader.preload(DataManifest, function() {
+        initializeInputMap();
+
         // set the user defined game stages
         state.set(state.MENU, new TitleScreen());
         state.set(state.PLAY, new PlayScreen());
