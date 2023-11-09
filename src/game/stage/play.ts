@@ -13,6 +13,7 @@ class PlayScreen extends Stage {
                 // set the background to black
                 game.world.backgroundColor.setColor(0, 0, 0);
                 game.world.physic = "none";
+                // game.viewport.
                 // force redraw
                 game.repaint();
                 console.log("Tilemap loaded")

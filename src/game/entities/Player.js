@@ -38,20 +38,20 @@ class PlayerEntity extends PhysicsEntity {
         let isRunning = false;
         if (input.isKeyPressed("left")) {
             this.renderable.flipX(true);
-            this.moveX(-1)
+            this.moveX(-2)
             console.log("left")
             isRunning = true;
         } if (input.isKeyPressed("right")) {
             this.renderable.flipX(false);
-            this.moveX(1);
+            this.moveX(2);
             console.log("right")
             isRunning = true;
         } if (input.isKeyPressed("up")) {
-            this.moveY(-1);
+            this.moveY(-2);
             console.log("up")
             isRunning = true;
         } if (input.isKeyPressed("down")) {
-            this.moveY(1);
+            this.moveY(2);
             console.log("down")
             isRunning = true;
         }
