@@ -12,7 +12,7 @@
     "vite": "^4.4.11",
     "vite-plugin-favicons-inject": "^2.2.0",
     "vite-plugin-html": "^3.2.0",
-    "vite-plugin-static-copy": "^0.17.0"
+    "vite-plugin-static-copy": "^0.17.1"
   },
   "browserslist": "defaults",
   "scripts": {
