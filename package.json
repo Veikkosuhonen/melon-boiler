@@ -9,7 +9,7 @@
     "@types/react-dom": "^18.2.15",
     "sass": "^1.69.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.11",
+    "vite": "^5.1.1",
     "vite-plugin-favicons-inject": "^2.2.0",
     "vite-plugin-html": "^3.2.0",
     "vite-plugin-static-copy": "^0.17.0"
